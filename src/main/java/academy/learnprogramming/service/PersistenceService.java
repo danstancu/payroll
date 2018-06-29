@@ -32,8 +32,6 @@ public class PersistenceService {
     @Inject
     SecurityUtil securityUtil;
 
-
-
     public void saveDepartment(Department department) {
         entityManager.persist(department);
     }
