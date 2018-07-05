@@ -46,7 +46,7 @@ import static org.junit.Assert.*;
 
 @RunWith(Arquillian.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class PersistenceServiceTest {
+public class IntegrationTest {
 
     @EJB
     private PersistenceService persistenceService;
